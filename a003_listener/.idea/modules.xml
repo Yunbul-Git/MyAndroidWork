@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AndroidWork.iml" filepath="$PROJECT_DIR$/../AndroidWork.iml" group="AndroidWork" />
+      <module fileurl="file://$PROJECT_DIR$/../a001_hello/a001_hello.iml" filepath="$PROJECT_DIR$/../a001_hello/a001_hello.iml" group="AndroidWork/a001_hello" />
+      <module fileurl="file://$PROJECT_DIR$/../a002_layout/a002_layout.iml" filepath="$PROJECT_DIR$/../a002_layout/a002_layout.iml" group="AndroidWork/a002_layout" />
+      <module fileurl="file://$PROJECT_DIR$/a003_listener.iml" filepath="$PROJECT_DIR$/a003_listener.iml" group="AndroidWork/a003_listener" />
+      <module fileurl="file://$PROJECT_DIR$/../a004_widget/a004_widget.iml" filepath="$PROJECT_DIR$/../a004_widget/a004_widget.iml" group="AndroidWork/a004_widget" />
+    </modules>
+  </component>
+</project>

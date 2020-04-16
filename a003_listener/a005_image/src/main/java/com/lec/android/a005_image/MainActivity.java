@@ -1,8 +1,7 @@
-package com.lec.android.androidwork;
+package com.lec.android.a005_image;
+
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
