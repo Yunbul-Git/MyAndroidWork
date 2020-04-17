@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tv"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="클릭할때마다 색깔바꾸기"
@@ -17,11 +17,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
-    <EditText
-        android:id="@+id/et"
+    <TextView
+        android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="결과창"/>
+        android:text="결과창"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
