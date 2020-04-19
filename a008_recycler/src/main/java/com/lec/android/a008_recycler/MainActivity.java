@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 2);
         rv.setLayoutManager(layoutManager);
 
-        // Adapter객체 생성
+        // Adapter 객체 생성
         adapter = new PhonebookAdapter();
 
         initAdapter(adapter);

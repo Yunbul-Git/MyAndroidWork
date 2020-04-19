@@ -52,7 +52,7 @@ public class PhonebookAdapter extends RecyclerView.Adapter<PhonebookAdapter.View
         // 그렇게 만들어진 View 를 리턴한다
         View itemView = inf.inflate(R.layout.item, parent, false);
 
-        // 위에서 마들어진 새로운 View 를 ViewHolder 에 담아 리턴
+        // 위에서 만들어진 새로운 View 를 ViewHolder 에 담아 리턴
         return new ViewHolder(itemView);
     }
 
