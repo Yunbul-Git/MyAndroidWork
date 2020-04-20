@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     // 안드로이드는 메인 쓰레드를 강제 종료시킬 수 없다
+
     public void mOnClick2(View v){
         Thread.currentThread().stop(); //java.lang.UnsupportedOperationException
     }// end mOnClick2
