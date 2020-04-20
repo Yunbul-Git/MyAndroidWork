@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvResult;
     Button btn;
     int[] color = {Color.YELLOW, Color.CYAN, Color.BLUE, Color.RED, Color.GREEN};
-
+    int i = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,15 +23,15 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int i = 0;
-                while (true) {
-                    if(i > 4){
-                        i = 0;
-                    } else {
-                        tvResult.setBackgroundColor(color[i]);
-                        i++;
-                    }
+                
+                    //tvResult.setBackgroundColor(Color.parseColor("#00000000"));
+                if (i > 3) {
+                    i = 0;
+                } else {
+                    tvResult.setBackgroundColor(color[i]);
+                    i++;
                 }
+
             }
         });
     }//end onCreate
